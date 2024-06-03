@@ -595,7 +595,7 @@
  }
 
  .headroom--not-top .navbar {
-   padding: 10px 0;
+   padding: 2px 0;
  }
 
  .headroom--unpinned {
@@ -603,7 +603,7 @@
  }
 
  .navbar {
-   padding: 25px 0;
+   padding: 5px 0;
    border-radius: 5px;
    position: relative;
    -webkit-transition: all 0.3s ease-out 0s;
@@ -1232,6 +1232,10 @@
  /*===== ABOUT 2 =====*/
  .about-content-2 .about-line {
    padding-top: 10px;
+ }
+
+ .about-content .text{
+  font-size: 22px;
  }
 
  .about-content-2 .about-line li {
@@ -2435,16 +2439,16 @@
    width: 100%;
    border-radius: 7px;
    background-color: #fff;
-   padding: 0 30px;
-   height: 65px;
-   border: 1px solid #dedede4f;
+   padding: 0 20px;
+   height: 45px;
+   border: 1px solid #1212124f;
    color: #222;
    font-size: 18px;
  }
 
  .contact-form textarea {
-   padding-top: 10px;
-   height: 270px;
+   /* padding-top: 10px; */
+   height: 120px;
    resize: none;
  }
 
